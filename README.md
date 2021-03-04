@@ -8,6 +8,9 @@ This controller was tested in simulation using multiple vehicle models that acte
 
 The controller was tested on the actual Indy Lights vehicle and the demanded steering angle was given to the drive by wire system through Raptor.
 
+![untitled-96](https://user-images.githubusercontent.com/60145680/109931862-67e68a80-7c97-11eb-88e2-976746ab7e9c.png)
+
+
 ## Dependency
 
 The controller was built in MATLAB and you would need the following add-ons along with MATLAB R2020a to run the simulation successfully
