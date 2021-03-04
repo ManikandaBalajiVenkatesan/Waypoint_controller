@@ -1,10 +1,12 @@
 # `Waypoint controller for path tracking`
 
-This waypoint controller was developed for path tracking of an IL-15 race car using the Novatel GNSS receiver for path tracking.
+Waypoint controller developed for path tracking of an Indy Lights IL-15 race car using the Novatel GNSS receiver for localization.
 
 The attached simulink file consists of the path tracking controller, which was based on the logic of Stanley controller. Two types of errors, viz. crosstrack error and yaw error were regulated to zero. The image below would help you understand the crosstrack and yaw error more clearly.
 
 This controller was tested in simulation using multiple vehicle models that acted as a simulated vehicle. The current code consists of a 3 DOF linear bicycle model as the plant. The simulator was used to test out any path that we wanted to track in real life using the IL-15 vehicle parameters. Ensuring the vehicle states and the errors were within acceptable limits we would further move towards testing it on the actual vehicle.
+
+The controller was tested on the actual Indy Lights vehicle and the demanded steering angle was given to the drive by wire system through Raptor.
 
 ## Dependency
 
